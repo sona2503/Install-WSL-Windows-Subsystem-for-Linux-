@@ -12,7 +12,7 @@
 3. Setelah kernel Linux ter-install tulis code ini untuk menampilkan list distro :
    ```sh
    wsl --list --online
-   ![Tampilan gambar](gambar1.png)
+![Tampilan gambar](gambar1.png)
 4. Tulis code ini setelah menentukan distro yang akan digunakan :
    ```sh
    wsl --install -d <nama_distro>
@@ -21,6 +21,7 @@
 7. Cek versi Distro dengan code :
    ```sh
    lsb_release -a
+![Tampilan gambar](gambar2.png)
 
    
 
