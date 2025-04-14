@@ -13,6 +13,7 @@
    ```sh
    wsl --list --online
 ![Tampilan gambar](gambar1.png)
+
 4. Tulis code ini setelah menentukan distro yang akan digunakan :
    ```sh
    wsl --install -d <nama_distro>
