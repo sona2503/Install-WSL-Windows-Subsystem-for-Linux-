@@ -1,35 +1,28 @@
-# Langkah-langkah Install WSL pada OS Windows
+# Steps to Install WSL on Windows
 
-## Persyaratan
-- Pastikan komputer/PC memiliki OS **Windows 10/11**.
+## Requirements
+- Make sure your computer/PC is running **Windows 10/11**.
 
-
-## Langkah-langkah :
-1. Buka CMD atau PowerShell -> Run as admistrator       
-2. Tulis code sebagai berikut :
+## Steps:
+1. Open CMD or PowerShell -> Run as administrator
+2. Enter the following command:
    ```sh
    wsl --install
-3. Setelah kernel Linux ter-install tulis code ini untuk menampilkan list distro :
+   ```
+3. Once the Linux kernel has finished installing, enter this command to display the list of available distributions:
    ```sh
    wsl --list --online
-![Tampilan gambar](gambar1.png)
+   ```
+   ![Screenshot](gambar1.png)
 
-4. Tulis code ini setelah menentukan distro yang akan digunakan :
+4. After choosing the distribution you want to use, enter this command:
    ```sh
-   wsl --install -d <nama_distro>
-5. Setup username dan password
-6. Cari App "Ubuntu"/distro yang anda install
-7. Cek versi Distro dengan code :
+   wsl --install -d <distro_name>
+   ```
+5. Set up your username and password.
+6. Look for the "Ubuntu" app (or whichever distro you installed) in your Start menu.
+7. Check the distro version with the following command:
    ```sh
    lsb_release -a
-![Tampilan gambar](gambar2.png)
-
-   
-
-
-
-
-
-
- 
-
+   ```
+   ![Screenshot](gambar2.png)
